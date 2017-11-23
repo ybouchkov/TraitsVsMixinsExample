@@ -1,10 +1,11 @@
 # TraitsVsMixinsExample
-Very Simple example of using protocols, instead of inheritance
+Very Simple example of using protocols
 
 **Login Screen with validation**
 *Let's say you have a login screen that needs to validate the username and password to make sure they are well-formed — not too short, not too long, no invalid characters — before you actually send a web service request. This is a fairly common thing to do in iOS apps.*
 
 **The idea**
+The LoginViewController is not massive when we are checking fields. All that stuff is in the extension.
 *So what’s the difference between a trait and a mixin?*
 ![alt text](http://machinethink.net/images/mixins-and-traits-in-swift-2/TraitsVsMixins.png)
 
